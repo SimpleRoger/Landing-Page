@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.first_section {
+    background-color: #1F2937;
+}
+
+#header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* color:#F9FAF8; */
+}
+
+.header_link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding:0 30px;
+}
+
+.navbar_left, .navbar_right {
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf9;
+}
+.sign_up {
+    background-color: #3882F6;
+    color:white;
+    width: 100px;
+    height: 40px;
+    border:#3882F6;
+    border-radius: 35px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin:30px;
+}
+
+.content_left, .content_right {
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+
+.content_left {
+    flex-direction: column;
+}
+
+.row_of_divs {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+}
+
+.blue_box {
+    border: 2px solid red;
+    padding: 10px;
+    margin:10px;
+}
+
+.blue_box_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_section {
+    background-color:#E5E7EB;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+.p_third {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 300px;
+}
+
+.inner_container {
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+    margin:30px 100px;
+}
+h4 {
+    color:#F9FAF8
+}
+.left_side {
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    margin-left:50px;
+}
+.right_side {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last_p {
+    color:white;
+}
